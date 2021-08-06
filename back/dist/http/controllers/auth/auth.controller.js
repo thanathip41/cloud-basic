@@ -242,18 +242,23 @@ var AuthController = /** @class */ (function (_super) {
             });
         }); };
         _this.test = function (req, res) { return __awaiter(_this, void 0, void 0, function () {
-            var users;
+            var users, err_4;
             return __generator(this, function (_a) {
-                try {
-                    users = new User_1.default().get();
-                    return [2 /*return*/, this.ok(res, {
-                            users: users
-                        })];
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, new User_1.default().get()];
+                    case 1:
+                        users = _a.sent();
+                        console.log(users, 'fetch users!!');
+                        return [2 /*return*/, this.ok(res, {
+                                users: users
+                            })];
+                    case 2:
+                        err_4 = _a.sent();
+                        return [2 /*return*/, this.error(res, err_4)];
+                    case 3: return [2 /*return*/];
                 }
-                catch (err) {
-                    return [2 /*return*/, this.error(res, err)];
-                }
-                return [2 /*return*/];
             });
         }); };
         return _this;

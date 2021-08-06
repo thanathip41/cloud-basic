@@ -108,7 +108,7 @@ var Controller = /** @class */ (function () {
         return res.status(201).json(data);
     };
     Controller.prototype.error = function (res, err) {
-        var code = err.code || 500;
+        var code = +err.code || 500;
         var message = err.message || 'error';
         if (code === 500)
             new tspace_utils_1.Logger().error(err);

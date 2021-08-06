@@ -41,7 +41,7 @@ export class Controller
     }
 
     public error (res:Response , err: any) {
-        const code = err.code || 500
+        const code = +err.code || 500
         const message =  err.message || 'error'
         if(code === 500) new Logger().error(err)
 
@@ -50,6 +50,7 @@ export class Controller
             message , 
             code 
         }
+
         return res.status(code).json(data)
     }
 

@@ -164,8 +164,9 @@ export class AuthController extends Controller {
 
   public test = async ( req : RequestAuth, res : Response) => {
     try {
-        const users = new User().get();
+        const users = await new User().get();
 
+        console.log(users ,'fetch users!!')
         return this.ok(res,{
           users
         })
