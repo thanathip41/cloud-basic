@@ -1,0 +1,11 @@
+version : '3'
+services :
+  express :
+    build: .
+    image: express
+    working_dir: /app/express
+    volumes:
+      - ./dist:/app/express
+    ports:
+      - ${PORT}:${PORT}
+    restart: always
