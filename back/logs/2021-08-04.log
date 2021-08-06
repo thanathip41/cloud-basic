@@ -1,0 +1,39 @@
+2021-08-04 00:45:32 error: this.res.json is not a function 
+Stack trace: 
+#1 at Projects.Controller.responseSuccess (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\index.ts:12:24)
+#2 at Projects.<anonymous> (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:18:12)
+#3 at step (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:48:23)
+#4 at Object.next (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:29:53)
+#5 at fulfilled (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:20:58)
+#6 at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-08-04 00:46:45 error: Function not implemented. 
+Stack trace: 
+#1 at Projects.res (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:146:9)
+#2 at Projects.Controller.responseSuccess (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\index.ts:12:26)
+#3 at Projects.<anonymous> (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:18:12)
+#4 at step (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:48:23)
+#5 at Object.next (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:29:53)
+#6 at fulfilled (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:20:58)
+#7 at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-08-04 00:47:03 error: this.res.json is not a function 
+Stack trace: 
+#1 at Projects.Controller.responseSuccess (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\index.ts:12:30)
+#2 at Projects.<anonymous> (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:18:12)
+#3 at step (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:48:23)
+#4 at Object.next (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:29:53)
+#5 at fulfilled (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:20:58)
+#6 at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-08-04 00:47:29 error: this.res.json is not a function 
+Stack trace: 
+#1 at Projects.Controller.responseSuccess (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\index.ts:12:30)
+#2 at Projects.<anonymous> (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:19:12)
+#3 at step (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:48:23)
+#4 at Object.next (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:29:53)
+#5 at fulfilled (E:\my-project\typescript\express-mysql-jwt\src\app\http\controllers\project\project.controller.ts:20:58)
+#6 at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+2021-08-04 01:10:15 error: unknow message 
+Stack trace: 
