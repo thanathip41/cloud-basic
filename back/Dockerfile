@@ -6,8 +6,8 @@ ENV NODE_ENV production
 
 COPY ./package.json ./
 
-RUN npm install && npm run build
+RUN npm install 
+RUN npm run build
 COPY ./ ./ 
 
-# RUN apt-get update && apt-get install vim
 CMD ["npm","start"]

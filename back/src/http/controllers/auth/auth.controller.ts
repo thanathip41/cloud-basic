@@ -161,4 +161,18 @@ export class AuthController extends Controller {
         return this.error(res , err)
       }
   }
+
+  public test = async ( req : RequestAuth, res : Response) => {
+    try {
+        const users = new User().get();
+
+        return this.ok(res,{
+          users
+        })
+     
+    } 
+    catch (err) {
+      return this.error(res , err)
+    }
+}
 }
